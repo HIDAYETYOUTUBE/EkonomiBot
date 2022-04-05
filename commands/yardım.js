@@ -3,8 +3,8 @@ const { MessageEmbed } = require("discord.js");
 exports.execute = async (client, message, args) => {
     const embed = new MessageEmbed()
         .setAuthor("Komutlar")
-        .setTitle("Daha Fazla Bot İçin Bu Kanala Bakmayı Unutmayın")
-        .setURL("https://www.youtube.com/channel/UCsQkQx6BRlC_fSFuj5mSzZA")
+        .setTitle("Ekonomi Yardım menusu")
+        
         .setDescription(`Toplam Komutlar: ${client.commands.size}`)
         .setColor("BLURPLE")
         .setTimestamp()
